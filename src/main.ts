@@ -1,8 +1,7 @@
 import { factory } from './factory';
-import axe  from 'react-axe';
-//const axe = require('react-axe');
+//import axe  from 'react-axe';
 
-axe(factory,1000);
+//axe(factory,1000);
 
 let count = factory(0, 1);
 

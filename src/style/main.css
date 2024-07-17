@@ -10,9 +10,14 @@ body {
 }
 
 main {
-	background: #bada55;
+	background: #346468;
 	width: 100vw;
 	height: 100vh;
+	text-align: center;
+}
+
+h1 {
+	color: #eee;
 }
 
 .controls {
@@ -21,12 +26,15 @@ main {
 }
 
 .control {
-	margin-right: 1rem;
+	margin: 2rem;
+	color: #fff;
+	font-weight: bold;
+	display: inline-block;
 }
 
 .control label {
 	display: block;
-	color: darkgreen;
+	color: rgb(221, 152, 14);
 	margin-bottom:.2rem;
 	text-transform: uppercase;
 }
@@ -39,9 +47,9 @@ main {
 }
 
 .count_button {
-	width: 10rem;
-	height: 10rem;
-	background: yellow;
+	width: 15rem;
+	height: 15rem;
+	background: #fff;
 	border-radius: .4rem;
 	border: 2px solid green;
 	box-shadow: 1px 1px 4px 2px #557668;
@@ -53,7 +61,7 @@ main {
 }
 
 .count_button .current_count {
-	font-size: 2rem;
+	font-size: 8rem;
 	font-weight: bold;
-	color: darkgreen;
+	color: rgb(249, 124, 22);
 }

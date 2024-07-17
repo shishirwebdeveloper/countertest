@@ -25,3 +25,16 @@ test("creates a count starting from negative value (-5) with a step of 5", funct
   expect(count()).toBe(5);
   expect(count()).toBe(10);
 });
+
+test("creates a count with float value and step of 1", function () {
+  const count = factory(0.5, 1);
+  expect(count()).toBe(1.5);
+  expect(count()).toBe(2.5);
+});
+
+test("creates a count with start with negative value and step of 2", function () {
+  const count = factory(-5, 2);
+  expect(count()).toBe(-3);
+  expect(count()).toBe(-1);
+});
+
